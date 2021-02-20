@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    <title>Resume</title>
+  </head>
+  <body onload="document.body.classList.add('loaded')">
+    <a href="/static/resume.pdf" download="resume">
+      <button class="resumebutton pure-button">Download Resume</button>
+    </a>
+    <iframe id="pdf-js-viewer" class="resume" src="/static/resume.pdf#toolbar=0&navpanes=0&scrollbar=0&zoom=100" type="application/pdf"></iframe>
+  </body>
+</html>
